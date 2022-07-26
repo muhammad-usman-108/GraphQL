@@ -6,6 +6,7 @@ type Query {
 }
 `;
 
+
 const resolvers = {
     Query: {
         greeting: () => 'Hello World',
